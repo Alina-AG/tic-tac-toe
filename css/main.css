@@ -1,0 +1,32 @@
+.js-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    height: 480px;
+    border: 2pxsolid black;
+}
+.cell {
+    flex-basis: calc((100% - 12px) / 3);
+    display: inline-block;
+    line-height: 146px;
+    font-size: 56px;
+    height: calc((100% - 12px) / 3);
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.reset {
+    display: block;
+    padding: 16px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #fff52c;
+    border-radius: 10px;
+    background: #3facff;
+    color: #fff52c;
+    font-size: 48px;
+}
